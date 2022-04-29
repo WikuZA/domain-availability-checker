@@ -1,16 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+  font-family: 'Poppins';
+  font-size: 20px;
+  background-color: #fce8d1;
 
-a {
-  color: inherit;
-  text-decoration: none;
+
 }
 
 * {
   box-sizing: border-box;
+  outline: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.section-domain-search {
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  width: 800px;
+
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.form-container {
+  width: 100%;
+  padding-top: 1rem;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.form-container div {
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  font-size: 0.7rem;
+}
+
+button {
+  padding: 1rem 3rem;
+  border: none;
+  font-family: 'Poppins';
+  background-color: black;
+  color: white;
+  font-size: 0.7rem;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #292929;
+
+}
+
+input {
+  padding: 1rem;
+  border: none;
+  font-family: 'Poppins';
+  width: 500px;
+}
+
+input::placeholder {
+  font-size: 0.7rem;
+}
+
+.warning {
+  display: block;
+  color: red;
+  font-size: 0.6rem;
+  margin: 0;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.taken {
+  color: rgb(201, 0, 0);
+}
+
+.available {
+  color: rgb(16, 99, 16);
 }

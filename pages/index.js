@@ -3,7 +3,6 @@ import { domainList } from "../utils/tlds" // Import the domainList array
 
 export default function Home() {
   useEffect(() => {
-    let domains = []; // Create an empty array
     let warning = document.querySelector('.warning'); // Select the warning element
 
     // Add event listener to the button
